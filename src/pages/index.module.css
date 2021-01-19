@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.heading{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+.Field{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 600px;
+    width: 100%;
+    margin: 0px auto;
+}
+.Field label{
+    /* border: 1px solid red; */
+    /* font-weight: bold; */
+}
+.btn{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 20px;
+}
+.bookmark_btn{
+    text-align: center;
+    /* margin-top: 10px; */
+}
+/* .bookmark_div{
+    border: 1px solid red;
+} */
+.grid{
+    /* border: 1px solid red; */
+    margin-top: 20px !important;
+    
+}
+#paper{
+    /* border: 1px solid violet; */
+    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#paper p{
+    color: black !important;
+    font-family: 'Roboto';
+}
+.loader {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+    overflow-y: hidden !important;
+}
+body{
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0px;
+}
