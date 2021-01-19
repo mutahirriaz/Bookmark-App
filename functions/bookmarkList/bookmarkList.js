@@ -52,7 +52,7 @@ const resolvers = {
     }
   },
 
-  // Mutationn
+  // Mutation
   Mutation: {
     addBookmark: async(_, {title, url})=> {
       try{
